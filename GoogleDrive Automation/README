@@ -1,38 +1,95 @@
-# Automation Playground
+# 📁 Google Drive Automation
 
-A collection of workflow automations built using n8n, OpenAI, Google Workspace, and other productivity tools.
+## 📖 Overview
 
-## Technologies
+Google Drive Automation is an n8n workflow designed to automate file organization and management within Google Drive.
+
+The workflow reduces manual effort by automatically processing uploaded files and organizing them into predefined folders based on business rules.
+
+---
+
+## 🚀 Features
+
+- Automatically monitors Google Drive for new files
+- Organizes files into predefined folders
+- Supports Google Drive API integration
+- Fully automated using n8n workflows
+- Easy to customize for different folder structures
+
+---
+
+## 🛠️ Tech Stack
 
 - n8n
-- OpenAI API
 - Google Drive API
-- Gmail API
-- Google Sheets
 - Webhooks
+- OAuth2 Authentication
 
-## Categories
+---
 
-- Google Workspace Automation
-- AI Automation
-- Productivity
-- HR Automation
-- Utilities
+## ⚙️ Workflow
 
-## Featured Workflows
+```text
+Trigger
+    │
+    ▼
+Detect New File
+    │
+    ▼
+Evaluate Rules
+    │
+    ▼
+Move File
+    │
+    ▼
+Success Response
+```
 
-### Google Drive File Organizer
+---
 
-Automatically organizes uploaded files into predefined folders.
+## 📂 Use Cases
 
-### AI Resume Parser
+- Automatic document organization
+- Business document management
+- Shared Drive organization
+- Team collaboration
+- Personal cloud storage automation
 
-Extracts structured resume data using OpenAI.
+---
 
-### Cover Letter Generator
+## 📸 Workflow Preview
 
-Generates ATS-friendly cover letters based on resume content.
+> Add a screenshot of the n8n workflow here.
 
-### Gmail Automation
+Example:
 
-Automatically processes incoming emails and routes attachments.
+```
+assets/
+└── google-drive-workflow.png
+```
+
+---
+
+## 📈 Benefits
+
+- Saves manual work
+- Improves file organization
+- Reduces human error
+- Increases productivity
+- Easy to maintain and extend
+
+---
+
+## 📌 Future Improvements
+
+- AI-powered document classification
+- OCR integration
+- Duplicate file detection
+- Automatic file tagging
+- Notification via Gmail or Slack
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
